@@ -34,8 +34,8 @@ public class WspolrzedneGeograficzne {
      public void koordynaty() {
      
        System.out.println("Gdansk: " + szerokoscGdansk + " N " + dlugostGdansk + " E"  );
-       System.out.println("Slupsk: " + szerokoscSlupsk + " N " + dlugostSlupsk + " E"   );
-       System.out.println("Krakow: " + szerokoscKrakow + " N " + dlugoscKrakow + " E"   );
+       System.out.println("Slupsk: " + szerokoscSlupsk + " N " + dlugostSlupsk + " E"  );
+       System.out.println("Krakow: " + szerokoscKrakow + " N " + dlugoscKrakow + " E"  );
 
        }
 
