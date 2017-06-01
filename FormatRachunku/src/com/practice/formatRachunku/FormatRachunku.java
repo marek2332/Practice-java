@@ -1,6 +1,6 @@
 /*
  Zadanie 29 - FormatRachunku.java
- autor: Markiian Danchyshyn
+ autor: Mark Danchyshyn
 */
 
 package com.practice.formatRachunku;
