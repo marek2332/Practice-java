@@ -3,6 +3,7 @@
  autor: Mark Danchyshyn 
 */
 
+package com.practice.podatekDochodowy;
 
 import java.util.Scanner;
 
@@ -21,19 +22,19 @@ public class PodatekDochodowy{
 		// wykorzystanie pentli if else
 		if(dochod <= 85528){
 		
-		//obliczanie podatku przy dochodzie ponizej 85528 zl		 	
-        double podatek = (dochod * 0.18) - 556.02;
+			//obliczanie podatku przy dochodzie ponizej 85528 zl		 	
+        		double podatek = (dochod * 0.18) - 556.02;
         
-        //wyswietlenia wynikow
-        System.out.print("Podatek Dochodowy = " + podatek + "zl");
+       	 		//wyswietlenia wynikow
+        		System.out.print("Podatek Dochodowy = " + podatek + "zl");
         
 		} else{
 			
-		//obliczanie podatku przy dochodzie powyzej 85528 zl	
-	    double podatek = (((dochod - 85528) * 0.32) + (85528 * 0.18));
+			//obliczanie podatku przy dochodzie powyzej 85528 zl	
+	    		double podatek = (((dochod - 85528) * 0.32) + (85528 * 0.18));
 	    
-	    //wyswietlenia wynikow
-        System.out.print("Podatek Dochodowy = " + podatek + "zl");
+	    		//wyswietlenia wynikow
+        		System.out.print("Podatek Dochodowy = " + podatek + "zl");
 			
 		
 		}	
